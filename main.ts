@@ -1,3 +1,9 @@
+/**
+ * Μετατροπή Δεκαδικού αριθμού σε δυαδικό
+ */
+/**
+ * ON-OFF Led με την βοήθεια μεταβλητής
+ */
 input.onButtonPressed(Button.A, function () {
     if (Led == 0) {
         pins.digitalWritePin(DigitalPin.P0, 1)
